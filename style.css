@@ -1,0 +1,44 @@
+:root {
+  --clr-primary: rgb(255, 0, 136);
+}
+
+body {
+  background-color: #ddd;
+}
+
+.design {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 75%;
+  margin: 5rem auto;
+}
+
+.card {
+  position: relative;
+  border-radius: 5px;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.popular {
+  background-color: var(--clr-primary);
+  font-size: 20px;
+  color: white;
+}
+
+.card .icon {
+  position: absolute;
+  top: -17.5px;
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--clr-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
