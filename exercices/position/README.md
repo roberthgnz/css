@@ -1,6 +1,6 @@
 # Ejercicio de posicionamiento
 
-## Objeto
+## Objetivo
 
 Colocar cada caja en su respectiva posición coincidiendo con el número.
 
